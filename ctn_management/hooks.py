@@ -248,6 +248,15 @@ fixtures = [
     {
         'dt': 'DocType',
         'filters': [['name', 'in', ["CTN Transfer Piece"]]]
+    },
+    {
+        'dt': 'Custom Field',
+    },
+    {
+        'dt': 'Client Script',
+    },
+    {
+        'dt': 'Server Script',
     }
 ]
 
