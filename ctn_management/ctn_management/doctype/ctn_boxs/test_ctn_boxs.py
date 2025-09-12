@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestCTNBOX(FrappeTestCase):
+class TestCTNBOXS(FrappeTestCase):
 	pass

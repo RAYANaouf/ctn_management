@@ -5,16 +5,16 @@ import frappe
 from frappe.model.document import Document
 
 
-class CTNBOX(Document):
+class CTNBOXS(Document):
 	pass
 
 
 
 @frappe.whitelist()
-def get_transactions(ctn_box_name):
+def get_transactions(ctn_boxs_name):
     return frappe.db.get_list(
         "CTN Box Transaction",
-        filters={"ctn": ctn_box_name, "docstatus": 1},
+        filters={"ctn": ctn_boxs_name, "docstatus": 1},
         fields=["*"]  
     )
    

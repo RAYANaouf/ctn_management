@@ -40,7 +40,7 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "CTN",
-   "options": "CTN BOX",
+   "options": "CTN BOXS",
    "reqd": 1
   },
   {
@@ -89,7 +89,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2025-09-09 02:50:58.109740",
+ "modified": "2025-09-12 15:46:28.927653",
  "modified_by": "Administrator",
  "module": "CTN Management",
  "name": "CTN Box Transaction",

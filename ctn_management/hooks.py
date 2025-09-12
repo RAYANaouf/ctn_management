@@ -247,7 +247,7 @@ app_license = "mit"
 fixtures = [
     {
         'dt': 'DocType',
-        'filters': [['name', 'in', ["CTN Transfer Piece"]]]
+        'filters': [['name', 'in', ["CTN Transfer Piece" , "CTN BOXS"]]]
     },
     {
         'dt': 'Custom Field',

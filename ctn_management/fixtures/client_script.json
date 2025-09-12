@@ -101,7 +101,7 @@
  {
   "docstatus": 0,
   "doctype": "Client Script",
-  "dt": "CTN BOX",
+  "dt": "CTN BOXS",
   "enabled": 1,
   "modified": "2025-08-19 23:59:51.165145",
   "module": "CTN Management",
@@ -129,6 +129,17 @@
   "module": "CTN Management",
   "name": "CTN Transfer Piece",
   "script": "frappe.ui.form.on('CTN Transfer Piece', {\n\trefresh(frm) {\n\t\t// your code here\n\t},\n\tcompany(frm){\n\t    frm.set_value('from' , '');\n\t    frm.set_value('to' , '');\n\t    frm.set_query('from' , function(){\n\t        return {filters:{company:frm.doc.company}}\n\t    })\n\t    frm.set_query('to' , function(){\n\t        return {filters:{company:frm.doc.company}}\n\t    })\n\t}\n})",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Brand",
+  "enabled": 1,
+  "modified": "2025-09-11 01:20:38.926973",
+  "module": "POS AR",
+  "name": "Brand - client script",
+  "script": "frappe.ui.form.on('Brand', {\n\trefresh(frm) {\n        frm.set_query(\"custom_father\", function() {\n            return { filters: { custom_root: 1 } };\n        });\n\t}\n})",
   "view": "Form"
  }
 ]

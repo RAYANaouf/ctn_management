@@ -14,14 +14,14 @@
    "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "CTN",
-   "options": "CTN BOX"
+   "options": "CTN BOXS"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2025-09-09 02:50:58.469696",
+ "modified": "2025-09-12 15:46:29.181933",
  "modified_by": "Administrator",
  "module": "CTN Management",
  "name": "CTN BOX Item",
